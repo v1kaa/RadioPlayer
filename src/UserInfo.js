@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const UserInfo = () => {
   const [location, setLocation] = useState(null);
-  const [browserInfo, setBrowserInfo] = useState({
+  const [browserInfo] = useState({
     userAgent: navigator.userAgent,
     platform: navigator.platform
   });
